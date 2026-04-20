@@ -12,7 +12,7 @@ const chatWindow           = document.getElementById("chatWindow");
 const userInput            = document.getElementById("userInput");
 
 // ── Cloudflare Worker URL (API key lives there, not here) ───
-const WORKER_URL = "https://loreal-proxy.rishiaadi3005-coder.workers.dev";
+const WORKER_URL = "https://loreal-chatbot-worker.rishiaadi3005.workers.dev";
 
 // ── State ───────────────────────────────────────────────────
 let selectedProducts = [];
